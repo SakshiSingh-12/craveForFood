@@ -5,7 +5,7 @@ const mysql = require('mysql2');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
-
+// port
 const app = express();
 const PORT = 5000;
 
