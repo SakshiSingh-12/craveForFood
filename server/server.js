@@ -38,4 +38,12 @@ app.get('/api/restaurants', (req, res) => {
     });
 });
 
+// API endpoint to get food items by restaurant ID
+app.get('/api/restaurants/:id/food_items', (req, res) => {
+    const restaurantId = req.params.id;
+    db.query('SELECT * FROM food_items WHERE RestaurantID = ?', [restaurantId], (err, results) => {
+        if (err) return res.status(500).json(err);
+        res.json(results);
+    });
+});
 
