@@ -77,3 +77,8 @@ const styles = {
         fontSize: '18px',
     },
 
+    addButton: {
+        padding: '5px 10px',
+        borderRadius: '5px',
+    },
+};
