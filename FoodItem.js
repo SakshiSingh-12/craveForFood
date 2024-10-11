@@ -16,3 +16,11 @@ const FoodItem = ({ food, onAdd }) => {
             setQuantity((prevQuantity) => prevQuantity - 1);
         }
     };
+
+    
+    const handleAddItem = () => {
+        onAdd(food.foodName, quantity); // Notify parent component to add item
+    };
+
+  
+
