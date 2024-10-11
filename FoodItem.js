@@ -68,4 +68,12 @@ const styles = {
         alignItems: 'center',
         margin: '10px 0',
     },
+    controlButton: {
+        padding: '5px 10px',
+        borderRadius: '5px',
+    },
+    quantity: {
+        margin: '0 10px',
+        fontSize: '18px',
+    },
 
