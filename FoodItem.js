@@ -9,3 +9,10 @@ const FoodItem = ({ food, onAdd }) => {
     const handleIncrease = () => {
         setQuantity((prevQuantity) => prevQuantity + 1);
     };
+
+    
+    const handleDecrease = () => {
+        if (quantity > 1) {
+            setQuantity((prevQuantity) => prevQuantity - 1);
+        }
+    };
