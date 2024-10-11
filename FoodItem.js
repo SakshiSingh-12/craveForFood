@@ -82,3 +82,6 @@ const styles = {
         borderRadius: '5px',
     },
 };
+
+
+export default FoodItem;
