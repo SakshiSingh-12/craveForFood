@@ -39,5 +39,15 @@ const FoodItem = ({ food, onAdd }) => {
     );
 };
 
+const styles = {
+    foodItemContainer: {
+        display: 'flex',
+        alignItems: 'center',
+        margin: '10px 0',
+        border: '1px solid #ccc',
+        padding: '10px',
+        borderRadius: '8px',
+    },
+
 
 
