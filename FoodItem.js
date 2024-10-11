@@ -56,4 +56,11 @@ const styles = {
         marginRight: '10px',
     },
 
+    foodDetails: {
+        flex: 1,
+        textAlign: 'left',
+    },
+    rating: {
+        margin: '5px 0',
+    },
 
