@@ -63,4 +63,9 @@ const styles = {
     rating: {
         margin: '5px 0',
     },
+    quantityControl: {
+        display: 'flex',
+        alignItems: 'center',
+        margin: '10px 0',
+    },
 
