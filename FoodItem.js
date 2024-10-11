@@ -49,5 +49,11 @@ const styles = {
         borderRadius: '8px',
     },
 
+    foodImage: {
+        width: '100px',
+        height: '100px',
+        objectFit: 'cover',
+        marginRight: '10px',
+    },
 
 
