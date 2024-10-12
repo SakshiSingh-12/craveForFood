@@ -19,7 +19,8 @@ const styles = {
     input: {
         width: '100%',
         padding: '10px',
-       
+        marginBottom: '10px',
+        
        
     },
 };
