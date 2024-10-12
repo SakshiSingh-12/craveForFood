@@ -20,7 +20,7 @@ const styles = {
         width: '100%',
         padding: '10px',
         marginBottom: '10px',
-        
+        borderRadius: '5px',
        
     },
 };
