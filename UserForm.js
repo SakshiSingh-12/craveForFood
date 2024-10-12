@@ -21,6 +21,7 @@ const styles = {
         padding: '10px',
         marginBottom: '10px',
         borderRadius: '5px',
+        border: '1px solid #ccc',
        
     },
 };
