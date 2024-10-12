@@ -3,7 +3,6 @@
 
 import React from 'react';
 
-
 const UserForm = () => {
     // Simple User Form (could be expanded)
     return (
