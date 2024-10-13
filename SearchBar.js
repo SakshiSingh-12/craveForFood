@@ -24,6 +24,10 @@ const SearchBar = ({ onSearch }) => {
 const styles = {
     searchInput: {
         width: '100%',
+        padding: '10px',
+        marginBottom: '20px',
+        borderRadius: '5px',
+        border: '1px solid #ccc',
        
     },
 };
