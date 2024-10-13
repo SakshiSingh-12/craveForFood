@@ -10,5 +10,14 @@ const SearchBar = ({ onSearch }) => {
         onSearch(e.target.value); // Trigger search
     };
 
-
+    return (
+        <input
+            type="text"
+            placeholder="Search for food or restaurants..."
+            value={query}
+            onChange={handleInputChange}
+            style={styles.searchInput}
+        />
+    );
+};
 
