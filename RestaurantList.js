@@ -25,6 +25,16 @@ const RestaurantList = ({ restaurants, onAddItem }) => {
                     onAddItem={onAddItem} // Pass the add item function
                 />
             ) : (
-               
+                <ul>
+                    {restaurants.map((restaurant) => (
+                       
+                    ))}
+                </ul>
+            )}
+        </div>
+    );
+};
+
+export default RestaurantList;
 
   
