@@ -8,7 +8,7 @@ const RestaurantList = ({ restaurants, onAddItem }) => {
     const [selectedRestaurant, setSelectedRestaurant] = useState(null);
 
     const handleRestaurantClick = (restaurant) => {
-        setSelectedRestaurant(restaurant);
+       
     };
 
     const handleCloseDetail = () => {
