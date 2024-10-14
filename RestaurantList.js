@@ -15,4 +15,16 @@ const RestaurantList = ({ restaurants, onAddItem }) => {
         setSelectedRestaurant(null);
     };
 
-   
+  return (
+        <div>
+            <h2>Restaurants</h2>
+            {selectedRestaurant ? (
+                <RestaurantDetail 
+                    restaurant={selectedRestaurant} 
+                    onClose={handleCloseDetail} 
+                    onAddItem={onAddItem} // Pass the add item function
+                />
+            ) : (
+               
+
+  
