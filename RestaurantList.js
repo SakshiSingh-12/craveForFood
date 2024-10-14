@@ -11,8 +11,7 @@ const RestaurantList = ({ restaurants, onAddItem }) => {
         setSelectedRestaurant(restaurant);
     };
 
-    const handleCloseDetail = () => {
-        setSelectedRestaurant(null);
+   
     };
 
   return (
