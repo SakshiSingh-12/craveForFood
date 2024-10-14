@@ -19,9 +19,7 @@ const RestaurantList = ({ restaurants, onAddItem }) => {
             <h2>Restaurants</h2>
             {selectedRestaurant ? (
                 <RestaurantDetail 
-                    restaurant={selectedRestaurant} 
-                    onClose={handleCloseDetail} 
-                    onAddItem={onAddItem} // Pass the add item function
+                   
                 />
             ) : (
                 <ul>
