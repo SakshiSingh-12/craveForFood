@@ -27,7 +27,9 @@ const RestaurantList = ({ restaurants, onAddItem }) => {
             ) : (
                 <ul>
                     {restaurants.map((restaurant) => (
-                       
+                        <li key={restaurant.RestaurantID} onClick={() => handleRestaurantClick(restaurant)} style={{ cursor: 'pointer' }}>
+                            {restaurant.Name} - {restaurant.CuisineType}
+                        </li>
                     ))}
                 </ul>
             )}
