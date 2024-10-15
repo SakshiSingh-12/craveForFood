@@ -6,7 +6,9 @@ import FoodItem from './FoodItem';
 
 const RestaurantDetail = ({ restaurant, onClose, onAddItem }) => {
     return (
-        
+        <div style={styles.detailContainer}>
+            
+        </div>
     );
 };
 
