@@ -9,6 +9,9 @@ const RestaurantDetail = ({ restaurant, onClose, onAddItem }) => {
         <div style={styles.detailContainer}>
             <button onClick={onClose} style={styles.closeButton}>Close</button>
             <h2>{restaurant.Name}</h2>
+            <img src={restaurant.imageUrl} alt={restaurant.Name} style={styles.image} />
+            <p>Rating: {restaurant.rating}</p>
+
             
         </div>
     );
