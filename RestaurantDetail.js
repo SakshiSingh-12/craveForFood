@@ -7,7 +7,8 @@ import FoodItem from './FoodItem';
 const RestaurantDetail = ({ restaurant, onClose, onAddItem }) => {
     return (
         <div style={styles.detailContainer}>
-            
+            <button onClick={onClose} style={styles.closeButton}>Close</button>
+           
         </div>
     );
 };
