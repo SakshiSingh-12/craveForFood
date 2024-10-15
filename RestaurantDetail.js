@@ -3,7 +3,6 @@
 import React from 'react';
 import FoodItem from './FoodItem';
 
-
 const RestaurantDetail = ({ restaurant, onClose, onAddItem }) => {
     return (
         <div style={styles.detailContainer}>
