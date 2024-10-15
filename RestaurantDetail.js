@@ -33,7 +33,14 @@ const styles = {
     closeButton: {
         marginBottom: '20px',
     },
-   
+    image: {
+        width: '300px',
+        height: '200px',
+        objectFit: 'cover',
+    },
+};
+
+
 
 
 
