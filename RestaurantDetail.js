@@ -2,3 +2,20 @@
 
 import React from 'react';
 import FoodItem from './FoodItem';
+
+
+const RestaurantDetail = ({ restaurant, onClose, onAddItem }) => {
+    return (
+        <div style={styles.detailContainer}>
+            <button onClick={onClose} style={styles.closeButton}>Close</button>
+            <h2>{restaurant.Name}</h2>
+            <img src={restaurant.imageUrl} alt={restaurant.Name} style={styles.image} />
+            <p>Rating: {restaurant.rating}</p>
+
+            <h3>Food Menu</h3>
+            {restaurant.foodItems.map((food) => (
+                <FoodItem key={food.foodName} food={food} onAdd={onAddItem} />
+            ))}
+        </div>
+    );
+};
