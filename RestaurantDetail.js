@@ -19,3 +19,18 @@ const RestaurantDetail = ({ restaurant, onClose, onAddItem }) => {
         </div>
     );
 };
+
+
+const styles = {
+    detailContainer: {
+        padding: '20px',
+        textAlign: 'center',
+        border: '1px solid #ccc',
+        borderRadius: '8px',
+        margin: '20px',
+        backgroundColor: '#fff',
+    },
+    
+
+
+
