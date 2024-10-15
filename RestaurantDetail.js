@@ -8,7 +8,8 @@ const RestaurantDetail = ({ restaurant, onClose, onAddItem }) => {
     return (
         <div style={styles.detailContainer}>
             <button onClick={onClose} style={styles.closeButton}>Close</button>
-           
+            <h2>{restaurant.Name}</h2>
+            
         </div>
     );
 };
