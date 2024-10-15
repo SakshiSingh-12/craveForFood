@@ -40,7 +40,7 @@ const styles = {
     },
 };
 
-
+export default RestaurantDetail;
 
 
 
