@@ -11,8 +11,10 @@ const RestaurantDetail = ({ restaurant, onClose, onAddItem }) => {
             <h2>{restaurant.Name}</h2>
             <img src={restaurant.imageUrl} alt={restaurant.Name} style={styles.image} />
             <p>Rating: {restaurant.rating}</p>
-
-            
+            <h3>Food Menu</h3>
+            {restaurant.foodItems.map((food) => (
+                <FoodItem key={food.foodName} food={food} onAdd={onAddItem} />
+            ))}
         </div>
     );
 };
