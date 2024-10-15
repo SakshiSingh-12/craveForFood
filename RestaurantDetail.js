@@ -30,7 +30,10 @@ const styles = {
         margin: '20px',
         backgroundColor: '#fff',
     },
-    
+    closeButton: {
+        marginBottom: '20px',
+    },
+   
 
 
 
