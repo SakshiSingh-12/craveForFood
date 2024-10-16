@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 
 // port
 const app = express();
-const PORT = 5000;
+const PORT = 6000;
 
 // Middleware
 app.use(cors());
