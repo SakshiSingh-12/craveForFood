@@ -18,3 +18,10 @@ const PaymentForm = ({ amount }) => {
     );
 };
 
+
+const styles = {
+    paymentButton: {
+        padding: '10px 20px',
+        borderRadius: '5px',
+    },
+};
