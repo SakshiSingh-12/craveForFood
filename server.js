@@ -31,3 +31,11 @@ db.connect((err) => {
     console.log('Connected to database.');
 });
 
+// API endpoint to get all restaurants
+app.get('/api/restaurants', (req, res) => {
+    db.query('SELECT * FROM restaurants', (err, results) => {
+        if (err) return res.status(500).json(err);
+        res.json(results);
+    });
+});
+
